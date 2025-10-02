@@ -12,16 +12,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- User Creation: `doogle`
+-- User Creation: `veleora`
 --
-CREATE USER IF NOT EXISTS 'doogle'@'%' IDENTIFIED BY 'PASSWORD_HERE';
-GRANT SELECT, INSERT, UPDATE ON `doogle`.* TO 'doogle'@'%';
+CREATE USER IF NOT EXISTS 'veleora'@'%' IDENTIFIED BY 'PASSWORD_HERE';
+GRANT SELECT, INSERT, UPDATE ON `veleora`.* TO 'doogle'@'%';
 
 --
--- Database: `doogle`
+-- Database: `veleora`
 --
-CREATE DATABASE IF NOT EXISTS `doogle` DEFAULT CHARACTER SET utf8mb4;
-USE `doogle`;
+CREATE DATABASE IF NOT EXISTS `veleora` DEFAULT CHARACTER SET utf8mb4;
+USE `veleora`;
 
 -- --------------------------------------------------------
 
@@ -116,3 +116,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
