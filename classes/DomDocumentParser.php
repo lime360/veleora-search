@@ -8,7 +8,7 @@ class DomDocumentParser
 		$html = '<?xml encoding="UTF-8">';
 
 		$options = array(
-			'http'=>array('method'=>"GET", 'header'=>"User-Agent: doogleBot/0.1\n")
+			'http'=>array('method'=>"GET", 'header'=>"User-Agent: VeleoraBot/0.1\n")
 			);
 		$context = stream_context_create($options);
 		$getConstants = file_get_contents($url, false, $context);
@@ -39,4 +39,5 @@ class DomDocumentParser
 	}
 
 }
+
 ?>
